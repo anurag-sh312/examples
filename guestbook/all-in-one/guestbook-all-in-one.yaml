@@ -159,7 +159,7 @@ metadata: # These properties would remain same as they are served through nginx
   name: ingress-test
 spec:
   rules:
-    - host: foo.bar.com
+    - host: guestbook.k8slocal
       http:
         paths:
           - backend:
